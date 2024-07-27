@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script crossorigin="anonymous"></script>
+    <script>
+      function copyToClipboard(text) {
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(text).then(
+            function () {
+              alert("Copied");
+            },
+            function (err) {
+              alert(err);
+            },
+          );
+        } else {
+          const tempInput = document.createElement("input");
+          tempInput.value = text;
+          document.body.appendChild(tempInput);
+          tempInput.select();
+          document.execCommand("copy");
+          document.body.removeChild(tempInput);
+          alert("Copied");
+        }
+      }
+    </script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <title>difaagh Repo</title>
+  </head>
+
+  <body onload="load()">
+    <div id="header">
+      <h1>Tweaks</h1>
+      <div>
+        <a href="sileo://source/https://difaagh.github.io/repo"
+          ><button class="add-repo-button">Add To Sileo</button></a
+        >
+        <button
+          class="copy-repo-button"
+          onclick="copyToClipboard('https://difaagh.github.io/repo')"
+        >
+          Copy To Clipboard
+        </button>
+      </div>
+    </div>
+
+    <div id="content">
+      <div id="tweak-rows"></div>
+    </div>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>

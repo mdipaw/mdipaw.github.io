@@ -1,0 +1,11 @@
+{
+  "contact": { "twitter": "difaagh", "email": "dhifa.aghisni@gmail.com" },
+  "information": { "description": "The all-in-one tweak for Facebook" },
+  "changelog": [
+    {
+      "date": "2024-07-28",
+      "version_number": "2.1",
+      "changes": "Initial release"
+    }
+  ]
+}
