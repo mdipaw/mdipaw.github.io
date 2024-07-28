@@ -4,7 +4,7 @@ Architecture: iphoneos-arm64e
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 12212
 Depends: mobilesubstrate, firmware (>= 5.0)
-Filename: ./debs/com.lema.wolf.deb
+Filename: ./debs/com.lema.wolf_2.1_iphoneos-arm64e.deb
 Size: 3853286
 MD5sum: 5962bd41412aa8ee5bf7b5b23ab7ad67
 SHA1: e0e41592b0678e8ad38713bcfd877a5d784a7971

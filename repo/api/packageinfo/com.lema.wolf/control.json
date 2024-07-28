@@ -1,1 +1,11 @@
-{ "Package": "com.lema.wolf", "Name": "Wolf", "Version": "2.1", "Architecture": "iphoneos-arm64e", "Description": "The all-in-one tweak for Facebook", "Maintainer": "BigBoss <bigboss@thebigboss.org>", "Author": "Michael Lema <samewhitetee@gmail.com>", "Section": "Tweaks", "Depends": "mobilesubstrate, firmware (>= 5.0)" }
+{
+  "Package": "com.lema.wolf",
+  "Name": "Wolf",
+  "Version": "2.1",
+  "Architecture": "iphoneos-arm64e",
+  "Description": "The all-in-one tweak for Facebook",
+  "Maintainer": "BigBoss <bigboss@thebigboss.org>",
+  "Author": "Michael Lema <samewhitetee@gmail.com>",
+  "Section": "Tweaks",
+  "Depends": "mobilesubstrate, firmware (>= 5.0)"
+}

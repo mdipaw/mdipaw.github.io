@@ -11,8 +11,22 @@ function loadData() {
 }
 
 function setIcon() {
-  document.getElementById("package-icon").src =
-    `${packageInfo}${packageId}/icon.png`;
+  fetch(`${packageInfo}${packageId}/icon.png`)
+    .then((response) => {
+      if (response.ok) {
+        document.getElementById("package-icon").src =
+          `${packageInfo}${packageId}/icon.png`;
+      } else {
+        document.getElementById("package-icon").src =
+          `../assets/images/default_icon.png`;
+        console.clear();
+      }
+    })
+    .catch((err) => {
+      document.getElementById("package-icon").src =
+        `../assets/images/default_icon.png`;
+      console.clear();
+    });
 }
 
 function fetchInfo() {

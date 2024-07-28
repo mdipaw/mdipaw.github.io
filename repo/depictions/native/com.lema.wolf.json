@@ -15,12 +15,6 @@
           "class": "DepictionSubheaderView"
         },
         {
-          "class": "DepictionButtonView",
-          "yPadding": 10,
-          "text": "Click here to buy me a coffee :)",
-          "action": "https://paypal.me/difaagh"
-        },
-        {
           "itemCornerRadius": 6,
           "itemSize": "{160, 275.41333333333336}",
           "screenshots": [

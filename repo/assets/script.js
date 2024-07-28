@@ -20,7 +20,21 @@ function renderTweakData(tweaks) {
 
       // Tweak icon
       const image = document.createElement("img");
-      image.src = `${packageinfo}${packageId}/icon.png`;
+      const pkgIconUrl = `${packageinfo}${packageId}/icon.png`;
+      fetch(pkgIconUrl)
+        .then((response) => {
+          if (response.ok) {
+            image.src = pkgIconUrl;
+          } else {
+            image.src = `assets/images/default_icon.png`;
+            console.clear();
+          }
+        })
+        .catch((e) => {
+          image.src = `assets/images/default_icon.png`;
+          console.clear();
+        });
+
       image.className = "tweak-row-img";
       tweakRow.appendChild(image);
 
@@ -60,8 +74,6 @@ function renderTweakData(tweaks) {
 function isValidResponse(response) {
   return !(response.status >= 400 && response.status < 600);
 }
-
-// Async
 
 async function fetchPackageControl(packageId) {
   try {
