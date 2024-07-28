@@ -24,28 +24,11 @@ a {
   padding: 20px;
 }
 
-#header h1 {
-  font-size: 24px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.add-repo-button {
+.copy-repo-button {
   font-size: 16px;
   font-weight: bold;
   color: white;
   background-color: #3b82f6;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.copy-repo-button {
-  font-size: 16px;
-  font-weight: bold;
-  background-color: white;
   padding: 12px 24px;
   border: none;
   border-radius: 5px;
