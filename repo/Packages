@@ -1,5 +1,28 @@
 Package: com.lema.wolf
 Version: 2.1
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 12212
+Depends: mobilesubstrate, firmware (>= 5.0)
+Filename: ./debs/com.lema.wolf_2.1_iphoneos-arm64.deb
+Size: 3852962
+MD5sum: dd62e2ff44f1fb98dc8a28d1cf46ff1c
+SHA1: d34d25cdb09f2ef6af4d3f8e32d3b78a22543a85
+SHA256: f50cf3ba3e19a30fa88060449e02ef7ed0bce1d40e77e66348b43709883ff517
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wolfDp
+Description: The all-in-one tweak for Facebook
+Tag: purpose::extension
+Author: Michael Lema <samewhitetee@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wolfDp
+Dev: lema
+Icon: file:///Library/Application%20Support/Wolf.bundle/wolf-icon@2x.png
+Name: Wolf
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.lema.wolf
+Version: 2.1
 Architecture: iphoneos-arm64e
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 12212
