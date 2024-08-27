@@ -1,3 +1,35 @@
+Package: com.difaagh.wlogger
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: difaagh
+Installed-Size: 172
+Filename: ./debs/com.difaagh.wlogger_0.0.1_iphoneos-arm64.deb
+Size: 4788
+MD5sum: 4df3ae58e605fcb793c8fa5851d67f73
+SHA1: 4cb31a46ec1f51eb773a098e9c94781adff6c20e
+SHA256: 6bd82b2e6e633db5d6df35936889ad1c852fb66267a733325330a2b421254819
+Section: System
+Description: write log to file
+Tag: role::developer
+Author: difaagh
+Name: WLogger
+
+Package: com.difaagh.wlogger
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: difaagh
+Installed-Size: 172
+Filename: ./debs/com.difaagh.wlogger_0.0.1_iphoneos-arm64e.deb
+Size: 4720
+MD5sum: 1d30627f6db03664b50e52ee949edaf7
+SHA1: 9e0f7e8527d81e2b5a5b0f8c624b8ab7668ace13
+SHA256: 828300cbf0c621c5cb93f29e873763bd63554ecb6aa218b734a170d755f2ec62
+Section: System
+Description: write log to file
+Tag: role::developer
+Author: difaagh
+Name: WLogger
+
 Package: com.lema.wolf
 Version: 2.1
 Architecture: iphoneos-arm64

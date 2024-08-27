@@ -1,0 +1,72 @@
+{
+  "minVersion": "0.4",
+  "headerImage": "https://difaagh.github.io/repo/CydiaIcon.png",
+  "tintColor": "#47afd1",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "title": "$pkg_name",
+          "useBoldText": true,
+          "useBottomMargin": false,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "itemCornerRadius": 6,
+          "itemSize": "{160, 275.41333333333336}",
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://difaagh.github.io/repo/CydiaIcon.png",
+              "fullSizeURL": "https://difaagh.github.io/repo/CydiaIcon.png"
+            }
+          ],
+          "class": "DepictionScreenshotsView"
+        },
+        {
+          "markdown": "$description",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "Latest Version",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "Version",
+          "text": "$version",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Released",
+          "text": "$changelog",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Developer",
+          "text": "$author",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Contact Support",
+          "action": "mailto:dhifa.aghisni@gmail.com",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "spacing": 16,
+          "class": "DepictionSpacerView"
+        },
+        {
+          "spacing": 20,
+          "class": "DepictionSpacerView"
+        }
+      ]
+    }
+  ]
+}
