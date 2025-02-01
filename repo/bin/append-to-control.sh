@@ -11,9 +11,9 @@ control_file="$1"
 
 PACKAGE_IDENTIFIER=$(grep -i "^Package:" $control_file | cut -d " " -f 2)
 
-DEPICTION_URL="https://difaagh.github.io/repo/depictions/index.html?packageId=$PACKAGE_IDENTIFIER"
-ICON_URL="https://difaagh.github.io/repo/api/packageinfo/$PACKAGE_IDENTIFIER/icon.png"
-SILEO_DEPICTION_URL="https://difaagh.github.io/repo/depictions/native/$PACKAGE_IDENTIFIER.json"
+DEPICTION_URL="https://mdipaw.github.io/repo/depictions/index.html?packageId=$PACKAGE_IDENTIFIER"
+ICON_URL="https://mdipaw.github.io/repo/api/packageinfo/$PACKAGE_IDENTIFIER/icon.png"
+SILEO_DEPICTION_URL="https://mdipaw.github.io/repo/depictions/native/$PACKAGE_IDENTIFIER.json"
 
 awk -v depiction="$DEPICTION_URL" -v icon="$ICON_URL" -v sileoDepiction="$SILEO_DEPICTION_URL" '
     /^Depiction:/ { sub(/.*/, "Depiction: " depiction); found_depiction = 1 }

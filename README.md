@@ -1,11 +1,11 @@
-# difaagh.github.io
+# mdipaw.github.io
 
 Welcome to my tweaks Repo.
 
 &nbsp;
 
-Email - dhifa.aghisni@gmail.com
+Email - mdipawijaya@outlook.com
 
-Paypal - [Buy me a coffe](https://paypal.me/difaagh)
+Paypal - [Buy me a coffe](https://paypal.me/mdipaw)
 
 Repo Template - [GinsuDev](https://github.com/ginsudev/repo)

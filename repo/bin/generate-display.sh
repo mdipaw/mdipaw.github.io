@@ -15,12 +15,12 @@ name=$(grep -i "^Name:" $input_file | cut -d " " -f 2-)
 description=$(grep -i "^Description:" $input_file | cut -d " " -f 2-)
 
 # Create a JSON object from the parsed fields
-# "source_code_link": "https://github.com/difaagh/$name"
+# "source_code_link": "https://github.com/mdipaw/$name"
 json_object=$(cat << EOF
 {
     "contact": {
-        "twitter": "difaagh",
-        "email": "dhifa.aghisni@gmail.com"
+        "twitter": "mdipaw",
+        "email": "mdipawijaya@outlook.com"
     },
     "information": {
         "description": "$description"

@@ -44,7 +44,7 @@ output_json=$(
     '
   {
   "minVersion": "0.4",
-  "headerImage": "https://difaagh.github.io/repo/CydiaIcon.png",
+  "headerImage": "https://mdipaw.github.io/repo/CydiaIcon.png",
   "tintColor": "#47afd1",
   "class": "DepictionTabView",
   "tabs": [
@@ -64,8 +64,8 @@ output_json=$(
           "screenshots": [
             {
               "accessibilityText": "Screenshot",
-              "url": "https://difaagh.github.io/repo/CydiaIcon.png",
-              "fullSizeURL": "https://difaagh.github.io/repo/CydiaIcon.png"
+              "url": "https://mdipaw.github.io/repo/CydiaIcon.png",
+              "fullSizeURL": "https://mdipaw.github.io/repo/CydiaIcon.png"
             }
           ],
           "class": "DepictionScreenshotsView"

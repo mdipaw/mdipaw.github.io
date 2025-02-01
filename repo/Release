@@ -1,9 +1,9 @@
-Origin: difaagh's Repo
-Label: difaagh's Repo
+Origin: mdipaw's Repo
+Label: mdipaw's Repo
 Suite: stable
 Version: 1.0
-Codename: difaagh
+Codename: mdipaw
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: Tweaks from difaagh
+Description: Tweaks from mdipaw
 Icon: file://CydiaIcon.png
